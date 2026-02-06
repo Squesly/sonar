@@ -8,7 +8,7 @@
 # |  $$$$$$/|  $$$$$$/| $$  | $$|  $$$$$$$| $$
 #  \______/  \______/ |__/  |__/ \_______/|__/
 #
-# Potrzebujesz pomocy lub masz pytania? https://jonesdev.xyz/discord
+# Potrzebujesz pomocy lub masz pytania? https://sonar.top/discord
 # Source code: https://github.com/jonesdevelopment/sonar
 # Dokumentacja: https://docs.jonesdev.xyz/administration/configuring-sonar
 # Copyright Jones Development and Sonar Contributors, na licencji GPL-3.0
@@ -186,6 +186,9 @@ verification:
   # Ta funkcja jest eksperymentalna i może powodować problemy
   # Jeśli ta opcja jest wyłączona, gracze Bedrock będą pomijani
   check-geyser-players: false
+  # Czy Sonar powinien również sprawdzać graczy EaglercraftX?
+  # Ta funkcja jest eksperymentalna i może powodować problemy.
+  check-eagler-players: false
   # Czas, jaki ma upłynąć od zatrzymania wysyłania pakietów przez gracza do wyrzucenia.
   # (Wartość ta reprezentuje czas w milisekundach: 1 sekunda = 1000 milisekund)
   read-timeout: 8000

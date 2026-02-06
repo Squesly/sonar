@@ -8,7 +8,7 @@
 # |  $$$$$$/|  $$$$$$/| $$  | $$|  $$$$$$$| $$
 #  \______/  \______/ |__/  |__/ \_______/|__/
 #
-# დახმარება გჭირდება ან კითხვა გაქვს? https://jonesdev.xyz/discord
+# დახმარება გჭირდება ან კითხვა გაქვს? https://sonar.top/discord
 # საწყისი კოდი: https://github.com/jonesdevelopment/sonar
 # Documentation: https://docs.jonesdev.xyz/administration/configuring-sonar
 # Copyright Jones Development and Sonar Contributors, licensed under GPL-3.0
@@ -185,6 +185,9 @@ verification:
   # ეს ფუნქცია ექსპერიმენტულია და შეიძლება გამოიწვიოს პრობლემები
   # თუ ეს გამორთულია, Bedrock მოთამაშეები გამოვლენილი იქნება
   check-geyser-players: false
+  # უნდა შეამოწმოს Sonar-მა EaglercraftX-ის მოთამაშეებიც?
+  # ეს ფუნქცია ექსპერიმენტულია და შესაძლოა პრობლემები გამოიწვიოს
+  check-eagler-players: false
   # დროის ოდენობა, რომელიც უნდა გავიდეს, სერვერთან კავშირის გარეშე, სანამ მოთამაშე დროებით გავარდება სერვერიდან.
   # (ეს არის ნაჩვენები მილიწამებში: 1 წამი = 1000 მილიწამი)
   read-timeout: 8000

@@ -8,7 +8,7 @@
 # |  $$$$$$/|  $$$$$$/| $$  | $$|  $$$$$$$| $$
 #  \______/  \______/ |__/  |__/ \_______/|__/
 #
-# Potřebujete pomoc nebo máte otázky? https://jonesdev.xyz/discord
+# Potřebujete pomoc nebo máte otázky? https://sonar.top/discord
 # Zdrojový kód: https://github.com/jonesdevelopment/sonar
 # Dokumentace: https://docs.jonesdev.xyz/administration/configuring-sonar
 # Copyright Jones Development and Sonar Contributors, licencováno pod GPL-3.0
@@ -187,6 +187,9 @@ verification:
   # Tato funkce je experimentální a může způsobit problémy
   # Pokud je toto zakázáno, hráči Bedrock budou přeskočeni
   check-geyser-players: false
+  # Měl by Sonar kontrolovat také hráče EaglercraftX?
+  # Tato funkce je experimentální a může způsobit problémy.
+  check-eagler-players: false
   # Doba, za kterou hráč přestal odesílat pakety před odpojením
   # (Hodnota udávaná v milisekundách: 1 sekunda = 1000 milisekund)
   read-timeout: 8000

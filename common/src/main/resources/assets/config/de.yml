@@ -8,7 +8,7 @@
 # |  $$$$$$/|  $$$$$$/| $$  | $$|  $$$$$$$| $$
 #  \______/  \______/ |__/  |__/ \_______/|__/
 #
-# Brauchst du Hilfe? https://jonesdev.xyz/discord
+# Brauchst du Hilfe? https://sonar.top/discord
 # Source code: https://github.com/jonesdevelopment/sonar
 # Dokumentation: https://docs.jonesdev.xyz/administration/configuring-sonar
 # Copyright Jones Development and Sonar Contributors, lizenziert unter GPL-3.0
@@ -184,6 +184,9 @@ verification:
   # Diese Funktion ist experimentell und kann Probleme verursachen
   # Wenn dies deaktiviert ist, werden Bedrock-Spieler übersprungen
   check-geyser-players: false
+  # Sollte Sonar auch EaglercraftX-Spieler überprüfen?
+  # Diese Funktion ist experimentell und kann zu Problemen führen.
+  check-eagler-players: false
   # Die Zeit, seit der der Spieler keine Pakete mehr sendet, bevor er die Verbindung trennt
   # (Dieser Wert stellt die Zeit in Millisekunden dar: 1 Sekunde = 1000 Millisekunden)
   read-timeout: 8000
